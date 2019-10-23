@@ -18,7 +18,7 @@ Vue.config.productionTip = false
 var router=new Vuerouter({
 	routes:[
 	{path:'/container',component:Container},
-	{path:"/selfinfo",component:Selfinfo},
+	{path:"/selfinfo/:id",name:"another",component:Selfinfo},
 	]
 })
 /* eslint-disable no-new */

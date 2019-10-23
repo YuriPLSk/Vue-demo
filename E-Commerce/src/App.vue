@@ -2,7 +2,7 @@
   <div id="app">
     <SideBar/>
     <router-link to="/container" style="margin-left: 400px;">Container</router-link>
-    <router-link to="/selfinfo" style="margin-left: 200px;">Selfinfo</router-link>
+    <router-link :to="{name:'another',params:{id:1123}}" style="margin-left: 200px;">Selfinfo</router-link>
 
     <router-view></router-view> 
     <!-- <Container/> -->
