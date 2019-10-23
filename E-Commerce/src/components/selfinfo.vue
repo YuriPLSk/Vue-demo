@@ -2,6 +2,7 @@
 	<div class="selfinfo">
 		<p>这是第二个组件</p>
 		<p>接收到的参数{{$route.params.id}}</p>
+		<span>asd</span>
 	</div>
 </template>
 <script>
